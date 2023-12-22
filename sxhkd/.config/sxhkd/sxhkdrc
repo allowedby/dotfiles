@@ -12,3 +12,6 @@ alt + shift + p
 
 alt + shift + n
     network.sh
+
+alt + shift + s
+    screenshot.sh
