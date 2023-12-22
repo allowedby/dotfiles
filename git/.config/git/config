@@ -1,0 +1,5 @@
+[user]
+	name = allowedby
+	email = allowedby@proton.me
+[init]
+    defaultBranch = main
