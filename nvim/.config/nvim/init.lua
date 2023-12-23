@@ -71,7 +71,7 @@ require('lazy').setup {
 require('telescope').setup {
     pickers = {
         find_files = {
-            hidden = true,
+            hidden = false,
         },
     },
 }
@@ -82,7 +82,7 @@ vim.keymap.set('n', '<leader>fw', require('telescope.builtin').grep_string, {})
 vim.keymap.set('n', '<leader>fl', require('telescope.builtin').live_grep, {})
 
 require('nvim-treesitter.configs').setup {
-    ensure_installed = { 'lua', 'c', 'go' },
+    ensure_installed = { 'lua', 'c', 'go', 'make' },
     sync_install = false,
     auto_install = false,
     highlight = {
