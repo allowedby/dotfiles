@@ -16,7 +16,6 @@ user_modmap="$XDG_CONFIG_HOME/X11/xmodmap"
 setxkbmap -option "caps:escape_shifted_capslock" &
 redshift -PO 4000 &
 slstatus &
-sxhkd &
 dunst &
 
 while true; do
